@@ -1,25 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+シンプルな Ruby on Rails でできた掲示板アプリです。
 
-Things you may want to cover:
+# 使い方
 
-* Ruby version
+```
+docker-compose build
+docker-compose up -d
+docker-compose run web bundle exec rake db:create
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# rails_sample
+http://localhost:3000/boards でアクセスできます。
